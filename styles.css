@@ -232,6 +232,7 @@ body {
 .main-content {
   margin-left: 90px;
   transition: margin 0.3s;
+  padding-bottom: 200px;
 }
 
 /* Glassmorphism Card */
@@ -868,4 +869,12 @@ body {
   .footer-content {
     gap: 8px;
   }
+}
+
+section[id] {
+  scroll-margin-top: 60px;
+}
+
+section#pricing, section#reviews {
+  min-height: 420px;
 }
